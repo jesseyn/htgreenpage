@@ -1,0 +1,162 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Lato", sans-serif;
+}
+
+.lato-regular {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 50vw;
+    background-image: url(images/bg800bulbs.jpg);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-color: #584c44;
+}
+
+nav {
+    margin-top: 3rem;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    height: 4.5rem;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+
+.logo {
+    margin-right: auto;
+    padding: 1rem;
+}
+
+li {
+    display: inline-block;
+    padding: 0px 20px;
+    list-style-type: none;
+}
+
+main {
+    background-color: white;
+}
+
+h1 {
+    margin: 0 1rem;
+    padding-top: .5rem;
+}
+
+hr {
+    margin: 0 2em;
+    border: solid black 1px;
+}
+
+p {
+    margin: 0 2rem;
+    margin-top: 1rem;
+    font-size: 1.1rem;
+}
+
+.second {
+    margin-left: 1.2rem;
+    padding-top: 2em;
+}
+
+.third {
+    margin-left: 1.2rem;
+    padding-top: 15rem;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.backtop {
+    text-align: center;
+    border: solid black 1px;
+    padding: .5rem;
+    width: 20%;
+    border-radius: 20px;
+    background-color: #e2dfe2;
+    margin-top: 3rem;
+}
+
+.backtop:hover {
+    background-color: #cfcecf;
+}
+
+.aboutus {
+    display: flex;
+    justify-content: center;
+}
+
+.imgfloat {
+    float: right;
+    margin: 1.5em;
+    border-radius: 15px;
+    width: 25%;
+}
+
+
+article {
+    display: flex;
+    max-width: 50vw;
+    margin: 2em;
+    border: solid #aac7c2 1px;
+    border-left: solid #aac7c2 10px;
+    padding: 30px;
+    background-color: #f8fffe;
+}
+
+.testimonials {
+    width: 20%;
+    float: left;
+    height: 20%;
+}
+
+.copyright {
+    background-color: #d86414;
+    block-size: 2em;
+    width: 100%;
+    margin: auto;
+    color: white;
+    text-align: start;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding-top: 2rem;
+}
+
+.backtop2 {
+    text-align: center;
+    border: solid black 1px;
+    padding: .5rem;
+    width: 20%;
+    border-radius: 20px;
+    background-color: #e2dfe2;
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 1rem;
+}
+
+.backtop2:hover {
+    background-color: #cfcecf;
+}
+
+footer {
+    background-color: white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+section {
+    background-color: white;
+    padding: 1rem;
+}
